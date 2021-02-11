@@ -1,0 +1,1 @@
+File that is going to be useful for the test of getting the hash of this file

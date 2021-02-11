@@ -1,0 +1,1 @@
+This file that is an .txt file is going to be ignored because is in the Ignore folder
