@@ -1,4 +1,4 @@
-import openpyxl, os, time, xlrd, clase_general
+import openpyxl, os, time, clase_general
 
 class Excel(object):
     def DatosEx(self, bande, ruta):
