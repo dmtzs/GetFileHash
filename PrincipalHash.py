@@ -9,7 +9,7 @@ salir= False
 try:
     Lang= Vistas.Language()
     while not salir:
-        op= Vistas.SeguroContinuar()
+        op= Vistas.SeguroContinuar(Lang)
 
         if op==1:
             RutaEx= Vistas.RutaEx()
@@ -26,9 +26,9 @@ try:
 
 except Exception as e:
     os.system("cls")
-    print(f"Ocurrió el ERROR: {e}")
+    Vistas.Excepciones(Lang, e)
     
 finally:
-    print("\n\t\t\tFinalizando la ejecución del programa...")
+    Vistas.Finalmente(Lang)
     time.sleep(4)
     os.system("cls")

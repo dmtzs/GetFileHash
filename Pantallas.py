@@ -30,21 +30,37 @@ class Menus():
 
         time.sleep(4)
 
-    def SeguroContinuar(self):
+    def SeguroContinuar(self, lang):
         salir= False
         while not salir:
             os.system("cls")
-            print("\n\n\n\n\t\t\tEstas a punto de ejecutar el script para obtener el hash de una ruta en específico.")
-            print("\t\t\tPor favor, verifica que los requisitos previos ya estén hechos, como el excel de donde tomará las cosas-")
-            print("\t\t\tComo los archivos en la ruta. Ingresa debajo el número de la opción que deseas: ")
-            try:
-                retorno= int(input("\t\t\tDeseas continuar? 1. Si, 2. No/Salir: "))
-                salir= True
-            except:
-                os.system("cls")
-                print("\n\n\n\n\t\t\tPor favor, debes ingresar un número entero que sea de las opciones mostradas.")
-                print("\t\t\tVolviendo al menú anterior.")
-                time.sleep(4)
+            if lang== 7:
+                print("\n\n\n\n\t\t\tEstas a punto de ejecutar el script para obtener el hash de una ruta en específico.")
+                print("\t\t\tPor favor, verifica que los requisitos previos ya estén hechos, como el excel de donde tomará las cosas como los archivos en la ruta.")
+                print("\t\t\tIngresa debajo el número de la opción que deseas: ")
+                try:
+                    retorno= int(input("\t\t\tDeseas continuar? 1. Si, 2. No/Salir: "))
+                    salir= True
+                except Exception as e:
+                    os.system("cls")
+                    print("\n\n\n\n\t\t\tPor favor, debes ingresar un número entero que sea de las opciones mostradas.")
+                    print(f"\t\t\tOcurrió el ERROR: {e}")
+                    print("\t\t\tVolviendo al menú anterior.")
+                    time.sleep(4)
+            
+            elif lang== 8:
+                print("\n\n\n\n\t\t\tYou are about to run the script to get the hash of a specific route.")
+                print("\t\t\tPlease check that the prerequisites are already done, like the excel where it will take things like files in the path from")
+                print("\t\t\tEnter below the number of the option you want")
+                try:
+                    retorno= int(input("\t\t\tDo you want to continue? 1. Yes, 2. No/Exit: "))
+                    salir= True
+                except Exception as e:
+                    print("\n\n\n\n\t\t\tPlease, you must enter a whole number that is one of the options shown")
+                    print(f"\t\t\tThe next ERROR ocurred: {e}")
+                    print("\t\t\tReturning to the main menu")
+                    time.sleep(4)
+
         return retorno
     
     def RutaEx(self):
@@ -70,8 +86,7 @@ class Menus():
         while not salir:
             os.system("cls")
             try:
-                print("\n\n\n\n\t\t\t\t1= Español, 2= English: ")
-                leng= int(input())
+                leng= int(input("\n\n\n\n\t\t\t\t1= Español, 2= English: "))
                 if leng== 1:
                     leng= 7#Siete español y 8 inglés.
                 elif leng== 2:
@@ -84,3 +99,15 @@ class Menus():
                 print("Remeber that you need to enter a number 1 or 2 only")
         
         return leng
+
+    def Excepciones(self, lang, e):
+        if lang== 7:
+            print(f"\n\n\n\t\t\tOcurrió el ERROR: {e}")
+        elif lang== 8:
+            print(f"\n\n\n\t\t\tThe next ERROR ocurred: {e}")
+
+    def Finalmente(self, lang):
+        if lang== 7:
+            print("\n\t\t\tFinalizando la ejecución del programa...")
+        elif lang== 8:
+            print("\n\t\t\tEnding the execution of the program...")
