@@ -4,29 +4,26 @@ Before you execute this program you need to download the next python libraries i
 
 
 
-
 If you want to run the app with terminal you need to have python 3 or later versions and the libraries you will need are the next ones
 
 
 
-
-Python libraries:\n
-pip install pycryptodome\n
-pip install python-docx\n
-pip install PyAutoGUI\n
-pip install openpyxl\n
+## Python libraries:
+pip install pycryptodome
+pip install python-docx
+pip install PyAutoGUI
+pip install openpyxl
 
 
 
 The rest of the libraries comes with python from default, if not please reply to me in order to add that prerequisities.
 
 
+## Then you run the program with the next command: 
+python PrincipalHash.py
 
 
-Then you run the program with the next command: python PrincipalHash.py
-
-
-
+ ## After
 And you just need to follow the instructions that appears in the same program.\n
 In the case of the route for the Excel file that the program will take like input data you just need to put the route where that excel file is located, but-\n
 before this step you need first to fill the Excel file that the program will take as an input data, the instructions for this Excel below.\n
