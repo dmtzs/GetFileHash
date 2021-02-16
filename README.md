@@ -10,8 +10,11 @@ If you want to run the app with terminal you need to have python 3 or later vers
 
 ## Python libraries:
 pip install pycryptodome
+
 pip install python-docx
+
 pip install PyAutoGUI
+
 pip install openpyxl
 
 
