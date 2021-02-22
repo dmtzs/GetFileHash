@@ -1,10 +1,6 @@
 # Instructions for the correct execution of the FileHash application
 
-Before you execute this program you need to download the next python libraries in order to make this app work
-
-
-
-If you want to run the app with terminal you need to have python 3 or later versions and the libraries you will need are the next ones
+If you want to run the app with terminal you need to have python 3 or later versions, this app works on windows only and the libraries you will need are the next ones:
 
 
 
