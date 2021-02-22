@@ -12,7 +12,7 @@ try:
         op= Vistas.SeguroContinuar(Lang)
 
         if op==1:
-            RutaEx= Vistas.RutaEx()
+            RutaEx= Vistas.RutaEx(Lang)
             SacHash.hash(RutaEx)
             Vistas.MenuPrin(0, Lang)
             salir= True

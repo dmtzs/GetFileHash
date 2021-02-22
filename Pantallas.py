@@ -63,21 +63,30 @@ class Menus():
 
         return retorno
     
-    def RutaEx(self):
+    def RutaEx(self, lang):
         salir= False
         while not salir:
             os.system("cls")
-            print("\n\n\n\n\tPor favor, ingresa la ruta de donde sacaremos el archivo excel con los demás datos.")
-            print("\tUn ejemplo de una ruta sería : C:\\NmCarpe\\NomArchivo.xlsx")
-            print("\tAsegurate de que sea un excel, si necesitas ayuda con la ruta de tu archivo llama a help desk para saber.")
-            try:
-                rutita= str(input("\t\t\tIngresa la ruta del archivo excel (.xlsx): "))#HACER LA FUNCIÓN EN LA QUE SE PUEDA REGRESAR DESDE AQUÍ AL MENÚ PRINCIPAL.
-                salir= True
-            except:
-                os.system("cls")
-                print("\n\n\n\n\n\tSi ves esto es por que te faltó poner el nombre del archivo al final de la cadena")
-                print("\tPor favor, ingresa el nombre del archivo con la extensión (.xlsx)")
-                print("\tRegresando al menú anterior...")
+            if lang== 7:
+                print("\n\n\n\n\tPor favor, ingresa la ruta de donde sacaremos el archivo excel con los demás datos.")
+                print("\tUn ejemplo de una ruta sería : C:\\NmCarpe\\NomArchivo.xlsx")
+                print("\tAsegurate de que sea un excel, si necesitas ayuda con la ruta de tu archivo llama a help desk para saber.")
+                try:
+                    rutita= str(input("\t\t\tIngresa la ruta del archivo excel (.xlsx): "))#HACER LA FUNCIÓN EN LA QUE SE PUEDA REGRESAR DESDE AQUÍ AL MENÚ PRINCIPAL.
+                    salir= True
+                except:
+                    os.system("cls")
+                    print("\n\n\n\n\n\tSi ves esto es por que te faltó poner el nombre del archivo al final de la cadena")
+                    print("\tPor favor, ingresa el nombre del archivo con la extensión (.xlsx)")
+                    print("\tRegresando al menú anterior...")
+            elif lang== 8:
+                print("\n\n\n\n\t")
+                print("\t")
+                print("\t")
+                try:
+                    rutita= str(input("\t\t\t"))
+                except:
+                    os.system("cls")
         return rutita
 
     def Language(self):
