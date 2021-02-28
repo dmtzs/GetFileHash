@@ -1,3 +1,7 @@
+#@File: hashDoc.py
+#@Author: Diego Martínez Sánchez
+#@Brief: The method that has the skeleton for calling tha hash methods, create the word file, take the snapshots, etc
+
 import os, time, hashlib, pyautogui, docx, openpyxl
 import MetodosHash, ex
 from docx.shared import Inches

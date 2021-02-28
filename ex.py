@@ -1,3 +1,7 @@
+#@File: ex.py
+#@Author: Diego Martínez Sánchez
+#@Brief: Methods for open the excel file and get the information we need from the same excel file
+
 import openpyxl, os, time, clase_general
 
 class Excel(object):

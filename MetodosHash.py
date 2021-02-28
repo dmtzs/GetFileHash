@@ -1,3 +1,8 @@
+#@File: MetodosHash.py
+#@Author: Diego Martínez Sánchez
+#@Brief: In this file are all the methods for getting the hash of the file you want, for take all the names of the folders and files so the program can go to each of the-
+#        paths for getting after the hash of all the respectives files.
+
 import os, time, hashlib
 
 class archYrutas():
