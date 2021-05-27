@@ -3,10 +3,7 @@
 If you want to run the app with terminal you need to have python 3 or later versions, this app works on windows only and the libraries you will need are the next ones:
 
 ## Python libraries:
-* pip install pycryptodome
-* pip install python-docx
-* pip install PyAutoGUI
-* pip install openpyxl
+* Run the next coomand in order to install the other python libraries: pip install requirements.txt
 <br>
 The rest of the libraries comes with python from default, if not please reply to me in order to add that prerequisities.
 
