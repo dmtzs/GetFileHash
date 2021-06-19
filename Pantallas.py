@@ -2,7 +2,10 @@
 #@Author: Diego Martínez Sánchez
 #@Brief: File in which are all the options that will appear in the program acccording to the steps or options that you want to enter.
 
-import os, time
+try:
+    import os, time
+except ImportError as eImp:
+    print(f"The following error ocurred: {eImp}")
 
 class Menus():
     def MenuPrin(self, bandera, lang):
