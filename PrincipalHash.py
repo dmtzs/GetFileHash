@@ -2,7 +2,18 @@
 #@Author: Diego Martínez Sánchez
 #@Brief: Main program which you need to run in order to execute the program in the right way.
 
-import time, os, hashDoc, clase_pas, Pantallas
+try:
+    import time, os, hashDoc, clase_pas, Pantallas, platform
+except ImportError as eImp:
+    print(f"The following error ocurred: {eImp}")
+
+def comandoShell():
+    sistema= platform.system()
+
+    if sistema== "Windows":
+        return "cls"
+    else:
+        return "clear"
 
 def prin():
     SacHash= hashDoc.SacarHash()
@@ -30,13 +41,13 @@ def prin():
                 Vistas.MenuPrin(2, Lang)
 
     except Exception as e:
-        os.system("cls")
+        os.system(comandoShell())
         Vistas.Excepciones(Lang, e)
         
     finally:
         Vistas.Finalmente(Lang)
         time.sleep(4)
-        os.system("cls")
+        os.system(comandoShell())
 
 if __name__== "__main__":
     prin()

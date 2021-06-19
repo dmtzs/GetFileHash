@@ -3,7 +3,7 @@
 If you want to run the app with terminal you need to have python 3 or later versions, this app works on windows only and the libraries you will need are the next ones:
 
 ## Python libraries:
-* Run the next coomand in order to install the other python libraries: pip install requirements.txt
+* Run the next command in order to install the other python libraries: pip install -r requirements.txt
 <br>
 The rest of the libraries comes with python from default, if not please reply to me in order to add that prerequisities.
 
@@ -28,4 +28,9 @@ Here we are going to describe how to prepare the excel file in order to be used 
 * The cell H2 is for specifying a title for the word file, if you left empty then the program will not write any title.
 * The I2 cell is something I´m still implementing in order to use the same file for multiple audits.
 
-# The program is complete but more implementations are going to be added
+## Testing functions
+Im using pytest in order to create this testing scripts so every time that we do a change we can test or modify the test script in order to proove that we comply with functionality.
+<br>
+For running the tests please run the next command: pytest test_app.py -v
+
+# The program is complete
