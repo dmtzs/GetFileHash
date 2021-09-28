@@ -1,5 +1,4 @@
 <p align="center">
-  <!--img width="280" src="https://github.com/dmtzs/ProyectoRaspArduino/blob/master/resources/Imgs/BoaEsmeraldaAppOriginal.png" alt="logo"-->
   <h1 align="center" style="margin: 0 auto 0 auto;">Hash your files</h1>
   <h5 align="center" style="margin: 0 auto 0 auto;">Get the hash of the files that you want in a document</h5>
 </p>
