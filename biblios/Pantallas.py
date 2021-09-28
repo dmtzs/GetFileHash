@@ -1,11 +1,11 @@
 #@File: Pantallas.py
 #@Author: Diego Martínez Sánchez
 #@Brief: File in which are all the options that will appear in the program acccording to the steps or options that you want to enter.
-
 try:
-    import os, time
+    import os
+    import time
 except ImportError as eImp:
-    print(f"The following error ocurred: {eImp}")
+    print(f"The following import ERROR ocurred in Pantallas: {eImp}")
 
 class Menus():
     def MenuPrin(self, bandera, lang):

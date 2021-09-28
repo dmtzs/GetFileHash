@@ -1,8 +1,11 @@
-from getpass import getpass
-from Crypto.Cipher import AES
-from Crypto.Util.Padding import pad
-from Crypto.Util.Padding import unpad
-import os, time
+try:
+    import os
+    import time
+    from getpass import getpass
+    from Crypto.Cipher import AES
+    from Crypto.Util.Padding import pad, unpad
+except ImportError as eImp:
+    print(f"The following import ERROR ocurred in clase_pas: {eImp}")
  
 class contra():
     def usuarioCambiar(self):

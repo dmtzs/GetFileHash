@@ -1,4 +1,9 @@
-import time, shutil, os, clase_pas
+try:
+    import os
+    import time
+    import shutil
+except ImportError as eImp:
+    print(f"The following import ERROR ocurred in clase_general: {eImp}")
 
 class Fecha():
     def calendario(self, arre):

@@ -1,8 +1,12 @@
 #@File: ex.py
 #@Author: Diego Martínez Sánchez
 #@Brief: Methods for open the excel file and get the information we need from the same excel file
-
-import openpyxl, os, time, clase_general
+try:
+    import os
+    import time
+    import openpyxl
+except ImportError as eImp:
+    print(f"The following import ERROR ocurred in ex file: {eImp}")
 
 class Excel(object):
     def DatosEx(self, bande, ruta):

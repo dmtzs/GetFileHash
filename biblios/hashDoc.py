@@ -1,11 +1,17 @@
 #@File: hashDoc.py
 #@Author: Diego Martínez Sánchez
 #@Brief: The method that has the skeleton for calling tha hash methods, create the word file, take the snapshots, etc
-
-import os, time, hashlib, pyautogui, docx, openpyxl
-import MetodosHash, ex
-from docx.shared import Inches
-from docx.enum.text import WD_ALIGN_PARAGRAPH#Marca que no existe pero si existe realmente, incluso la doc lo indica de esa manera.
+try:
+    import os
+    import ex
+    import time
+    import docx
+    import pyautogui
+    import MetodosHash
+    from docx.shared import Inches
+    from docx.enum.text import WD_ALIGN_PARAGRAPH#Marca que no existe pero si existe realmente, incluso la doc lo indica de esa manera.
+except ImportError as eImp:
+    print(f"The following import ERROR ocurred in hashDoc: {eImp}")
 
 class SacarHash():
     def hash(self, RutaEx):
