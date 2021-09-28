@@ -48,3 +48,6 @@ Here we are going to describe how to prepare the excel file in order to be used 
 
 ## Documentation
 A documentation with images will be developed with the time in the wiki part of this repository.
+
+## Release
+Please download the zip in the release part, that zip will include the exe file of ther application and the folder that you can use in order to test the app.
