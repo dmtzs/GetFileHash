@@ -2,4 +2,3 @@ pycryptodome
 python-docx
 PyAutoGUI
 openpyxl
-pytest
