@@ -52,4 +52,11 @@ def prin():
         os.system(comandoShell())
 
 if __name__== "__main__":
-    prin()
+    try:
+        prin()
+    except KeyboardInterrupt:
+        print("Was pressed Ctrl + C")
+    except Exception as ex:
+        print(f"The following ERROR ocurred: {ex}")
+    finally:
+        print("Ending program")
