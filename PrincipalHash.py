@@ -1,9 +1,11 @@
 #@File: PrincipalHash.py
 #@Author: Diego Martínez Sánchez
 #@Brief: Main program which you need to run in order to execute the program in the right way.
-
 try:
-    import time, os, hashDoc, clase_pas, Pantallas, platform
+    import os
+    import time
+    import platform
+    from biblios import hashDoc, Pantallas
 except ImportError as eImp:
     print(f"The following error ocurred: {eImp}")
 
