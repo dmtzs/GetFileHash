@@ -1,5 +1,3 @@
+__pycache__
 Hashes.docx
 RutaPrueba.txt
-.gitignore
-__pycache__
-.pytest_cache
