@@ -5,9 +5,16 @@
 
 <p align="center">
     <img src="https://img.shields.io/github/last-commit/dmtzs/GetFileHash">
-    <img src="https://img.shields.io/github/contributors/dmtzs/GetFileHash">
     <img src="https://img.shields.io/github/issues/dmtzs/GetFileHash?label=issues">
     <img src="https://img.shields.io/github/stars/dmtzs/GetFileHash">
+    <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/dmtzs/GetFileHash">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/languages/code-size/dmtzs/GetFileHash">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/dmtzs/GetFileHash">
+  <img alt="Lines of code" src="https://img.shields.io/tokei/lines/github/dmtzs/GetFileHash?label=total%20lines%20in%20repo">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/dmtzs/GetFileHash">
 </p>
 
 # Instructions for the correct execution of the FileHash application
