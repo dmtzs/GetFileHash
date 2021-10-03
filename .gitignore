@@ -1,3 +1,6 @@
 __pycache__
 Hashes.docx
 RutaPrueba.txt
+build
+dist
+*.spec
