@@ -1,7 +1,7 @@
 <p align="center">
   <img width="350" src="https://github.com/dmtzs/GetFileHash/blob/master/Assets/readme/hashCover.png" alt="Cover image">
   <h1 align="center" style="margin: 0 auto 0 auto;">Hash your files</h1>
-  <h5 align="center" style="margin: 0 auto 0 auto;">Get the hash of the files that you want in a document</h5>
+  <h5 align="center" style="margin: 0 auto 0 auto;">Get the hash of the files that you want in a word document</h5>
 </p>
 
 <p align="center">
