@@ -5,7 +5,7 @@ try:
     import os
     import time
     import platform
-    from biblios import hashDoc, Pantallas
+    from biblios import *
 except ImportError as eImp:
     print(f"The following error ocurred: {eImp}")
 

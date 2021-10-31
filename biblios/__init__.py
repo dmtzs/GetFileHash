@@ -1,1 +1,1 @@
-__all__= ["clase_general", "clase_pas", "ex", "hashDoc", "MetodosHash", "Pantallas"]
+__all__= ["hashDoc", "Pantallas"]
