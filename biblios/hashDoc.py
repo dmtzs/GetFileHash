@@ -3,15 +3,14 @@
 #@Brief: The method that has the skeleton for calling tha hash methods, create the word file, take the snapshots, etc
 try:
     import os
-    import ex
     import time
     import docx
     import pyautogui
-    import MetodosHash
+    from biblios import ex, MetodosHash
     from docx.shared import Inches
     from docx.enum.text import WD_ALIGN_PARAGRAPH#Marca que no existe pero si existe realmente, incluso la doc lo indica de esa manera.
 except ImportError as eImp:
-    print(f"The following import ERROR ocurred in hashDoc: {eImp}")
+    print(f"The following import ERROR ocurred in {__name__}: {eImp}")
 
 class SacarHash():
     def hash(self, RutaEx):
